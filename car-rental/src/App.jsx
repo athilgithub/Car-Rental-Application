@@ -1,4 +1,5 @@
 import React from 'react';
+// Car Rental Application - Main App Component
 import { BrowserRouter as Router, Routes, Route, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
