@@ -19,6 +19,7 @@ import Navbar from './components/Navbar.jsx';
 import { CarRental, ChauffeurService, Corporate, Subscription } from './components/Service.jsx';
 import carsData from './data/cars.js';
 
+// Google OAuth Configuration
 const GOOGLE_CLIENT_ID = "939147918063-qup3da9dohhdf7i2c090skr5quml8q19.apps.googleusercontent.com";
 
 // Wrapper to pass car prop to BookingPage
