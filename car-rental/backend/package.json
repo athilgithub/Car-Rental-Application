@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.cjs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build",
+    "build": "echo 'Backend build skipped'",
     "start": "node server.cjs",
     "serve:dist": "serve -s dist -l tcp:$PORT"
   },
