@@ -1,7 +1,10 @@
 {
-  "buildCommand": "cd car-rental && npm run build",
+  "buildCommand": "cd car-rental && npm ci --prefer-offline --no-audit && npm run build",
   "outputDirectory": "car-rental/dist",
   "env": {
     "VITE_API_URL": "@vite_api_url"
+  },
+  "github": {
+    "silent": false
   }
 }
