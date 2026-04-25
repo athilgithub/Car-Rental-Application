@@ -14,7 +14,7 @@ import ClientDashboard from './pages/ClientDashboard';
 import DriverDashboard from './pages/DriverDashboard';
 import Analytics from './pages/Analytics';
 
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 import { CarRental, ChauffeurService, Corporate, Subscription } from './components/Service';
 import carsData from './data/cars';
 
