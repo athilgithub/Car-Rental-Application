@@ -3,21 +3,21 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import Home from './pages/Home';
-import Cars from './components/Cars';
-import BookingPage from './components/BookingPage';
-import About from './components/About';
-import Contact from './components/Contact';
-import AdminDashboard from './pages/AdminDashboard';
-import ClientDashboard from './pages/ClientDashboard';
-import DriverDashboard from './pages/DriverDashboard';
-import Analytics from './pages/Analytics';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
+import Home from './pages/Home.jsx';
+import Cars from './components/Cars.jsx';
+import BookingPage from './components/BookingPage.jsx';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
+import AdminDashboard from './pages/AdminDashboard.jsx';
+import ClientDashboard from './pages/ClientDashboard.jsx';
+import DriverDashboard from './pages/DriverDashboard.jsx';
+import Analytics from './pages/Analytics.jsx';
 
-import Navbar from './components/Navbar';
-import { CarRental, ChauffeurService, Corporate, Subscription } from './components/Service';
-import carsData from './data/cars';
+import Navbar from './components/Navbar.jsx';
+import { CarRental, ChauffeurService, Corporate, Subscription } from './components/Service.jsx';
+import carsData from './data/cars.js';
 
 const GOOGLE_CLIENT_ID = "939147918063-qup3da9dohhdf7i2c090skr5quml8q19.apps.googleusercontent.com";
 
